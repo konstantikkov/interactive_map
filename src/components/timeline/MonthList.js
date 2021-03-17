@@ -12,6 +12,7 @@ const monthArray = ['июн','июл','авг','сен','окт','ноя','де�
 export const MonthList = () => {
     const {value} = useTimeline()
     let i = value/100, j = -1;
+    let key=0;
     return(
         <ul className="MonthList">
             {
@@ -19,10 +20,10 @@ export const MonthList = () => {
                     j++
                     if((j>=i)&&j<(i+1))
                         return(
-                            <li className="Month" style={{color: 'red'}}>{month}</li>
+                            <li className="Month" key={key++} style={{color: 'red'}}>{month}</li>
                         )
                     return(
-                        <li className="Month">{month}</li>
+                        <li className="Month" key={key++}>{month}</li>
                     )
                 })
             }

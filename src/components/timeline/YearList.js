@@ -1,23 +1,22 @@
 import React from 'react'
 import {useTimeline} from "../timelineContext/TimelineContext";
 
-
 const yearArray = ['1941', '1942', '1943', '1944', '1945']
 
 export const YearList = () => {
     const {value} = useTimeline()
-
+    let key=0;
     function getYear(value){
-        if(value<700){
+        if(value<600){
             return 0;
         }
-        else if(value < 1900){
+        else if(value < 1800){
             return 1;
         }
-        else if(value < 3100){
+        else if(value < 3000){
             return 2;
         }
-        else if(value < 4300){
+        else if(value < 4200){
             return 3;
         }
         else if(value <= 4700){
@@ -31,12 +30,12 @@ export const YearList = () => {
             {
                 yearArray.map((year)=>{
                     j++
-                    if(i==j)
+                    if(i===j)
                         return(
-                            <li className="Year" style={{color: 'red'}}>{year}</li>
+                            <li className="Year" key={key++} style={{color: 'red'}}>{year}</li>
                         )
                     return(
-                        <li className="Year">{year}</li>
+                        <li className="Year" key={key++}>{year}</li>
                     )
                 })
             }

@@ -2,9 +2,12 @@ import React from 'react'
 import {useTimeline} from "./timelineContext/TimelineContext";
 import {Dot} from "./map/Dot";
 
+import styles from '../css/MapPlane.css'
+import {MapProvider} from "./map/mapContext/mapContext";
+
 export const MapPlane = ({posMap, pointsDateMap}) => {
     const {value} = useTimeline()
-
+    let key=0;
     const dots = [];
 
     // function getDots(){
@@ -29,12 +32,14 @@ export const MapPlane = ({posMap, pointsDateMap}) => {
         }
     }
     return(
-        <div className="Map">{
+        <MapProvider>
+        <div className="MapPlane">{
             dots.map((dot)=>{
                 return (
-                    <Dot value={dot.value} info={posMap.get(dot.name)}/>
+                    <Dot value={dot.value} key={key++} info={posMap.get(dot.name)}/>
                 )
             })
         }</div>
+        </MapProvider>
     )
 }
