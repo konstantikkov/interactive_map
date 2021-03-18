@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Imperial;
+    src: url(./ImperialOne.ttf);
+    font-weight: initial;
+}
+@font-face {
+    font-family: Pobeda;
+    src: url(./Pobeda-Regular.ttf);
+    font-weight: inherit;
+}

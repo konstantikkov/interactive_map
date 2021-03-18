@@ -1,10 +1,9 @@
 .MapPlane{
-    width:100%;
-    height: 100%;
     grid-column: 1;
     grid-row: 2;
     position: relative;
-    background: url(../img/Leningrad.png);background-size: 100%;
+    background: url(../img/Leningrad.png);
+    background-size: 100%;
 }
 
 .Dot{
@@ -26,6 +25,8 @@
 }
 
 .PointStats{
+    width:140px;
+    height: 50px;
     opacity: 70%;
     position: absolute;
     background-color: white;
@@ -45,4 +46,15 @@
     height:1px;
     border-radius:50%;
     transition-duration: .7s
+}
+.PointName{
+    opacity: 1;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+
+.PointText{
+    opacity: 1;
+    font-size: 80%;
 }

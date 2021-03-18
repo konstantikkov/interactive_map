@@ -25,8 +25,8 @@ export const PointStats = ({name, value}) =>{
             <div className="PointStats" style={{zIndex:`${prevIndex.current}`}}
                  onClick={event=>toggle()
             }>
-                <h2>{name}</h2>
-                <div>{value}</div>
+                <div className="PointName">{name}</div>
+                <div className="PointText">{value} человек</div>
             </div>
 )
 }
