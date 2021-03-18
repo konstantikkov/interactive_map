@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cede356c-f0c2-43ae-9bbc-b5d4882401bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/map/dot/PointStats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/dot/PointStats.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Description.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Description.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapPlane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapPlane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/dot/Point.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/dot/Point.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/MapPlane.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MapPlane.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Timeline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1611799685518" duration="2037000" />
       <workItem from="1611986156000" duration="4871000" />
       <workItem from="1612146991484" duration="203000" />
-      <workItem from="1615846287637" duration="58186000" />
+      <workItem from="1615846287637" duration="58906000" />
     </task>
     <servers />
   </component>

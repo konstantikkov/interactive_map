@@ -1,6 +1,6 @@
 import React from 'react'
 import {useTimeline} from "./timelineContext/TimelineContext";
-import styles from '../css/Description.css'
+import '../css/Description.css'
 
 export const Description = ({descriptionMap})=> {
     const {value} = useTimeline()

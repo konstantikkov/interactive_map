@@ -2,7 +2,8 @@ import React from 'react'
 import {useTimeline} from "./timelineContext/TimelineContext";
 import {Dot} from "./map/Dot";
 
-import styles from '../css/MapPlane.css'
+import '../css/MapPlane.css'
+
 import {MapProvider} from "./map/mapContext/mapContext";
 
 export const MapPlane = ({posMap, pointsDateMap}) => {

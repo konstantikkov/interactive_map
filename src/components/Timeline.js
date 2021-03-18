@@ -2,7 +2,7 @@ import React from 'react'
 import {useTimeline} from "./timelineContext/TimelineContext";
 import {MonthList} from "./timeline/MonthList";
 import {YearList} from "./timeline/YearList";
-import styles from '../css/Timeline.css'
+import '../css/Timeline.css'
 export const Timeline = () => {
     const TimelineState = useTimeline()
         return(
